@@ -16,22 +16,14 @@
 .fcolumna {
 	background:rgba(150,26,250,0.3);
 	border-style: none;
-	/*position: relative;
-	z-index: 1;*/
 }
 
-/*
-.columna .fondo {
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  center center;
-  background-color: white;
-  opacity: .4;
-  width: 100%;
-  height: 100%;
+.barrah{
+	margin-bottom: 0px;
+	vertical-align:top;
 }
-*/
+
+.central{
+	padding-top: 60px
+	
+}
