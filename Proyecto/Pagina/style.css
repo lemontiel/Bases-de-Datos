@@ -1,14 +1,25 @@
-body {
-background-image: url("recursos/imagenes/fondoInicio.jpg")
-
+.finicio { 
+  background: url("recursos/imagenes/fondoInicio.jpg") no-repeat center center fixed; 
+  background-size: cover;
+  color: white;
 }
 
 .titulo{
-	font-size: 72px;
-	font-family: 'Francois One', sans-serif;
+	font-size: 50px;
+	font-family: 'Ubuntu', sans-serif;
 	color: white;
 	text-shadow: 2px 2px 4px #000000;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
+
+.fcolumna {
+	background:rgba(150,26,250,0.3);
+	border-style: none;
+	/*position: relative;
+	z-index: 1;*/
+}
+
 .barrah{
 	margin-bottom: 0px;
 	vertical-align:top;
