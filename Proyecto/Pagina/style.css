@@ -1,3 +1,10 @@
 body {
+background-image: url("recursos/imagenes/fondoInicio.jpg")
+}
 
+.titulo{
+	font-size: 72px;
+	font-family: 'Francois One', sans-serif;
+	color: white;
+	text-shadow: 2px 2px 4px #000000;
 }
