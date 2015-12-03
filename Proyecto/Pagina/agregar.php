@@ -67,8 +67,8 @@
 									<input type="text" class="form-control" name="aPaterno" placeholder="Ingresa tu apellido paterno"  maxlength="20" />
 									<label>Apellido Materno:</label>
 									<input type="text" class="form-control" name="aMAterno" placeholder="Ingresa tu apellido materno"  maxlength="20" />
-									<label>Apodo: </label>
-									<input type="text" class="form-control" name="apodo" placeholder="Ingresa tu apodo (opcional)" maxlength="15" />
+									<label>N&uacute;mero de cuenta: </label>
+									<input type="text" class="form-control" name="apodo" placeholder="n&uacute;mero de cuenta" maxlength="15" />
 									<label>Fecha de nacimento:</label>
 									<input type="date" class="form-control" name="fnacimiento"/>
 									<label>Email:</label>
