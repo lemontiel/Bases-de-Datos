@@ -3,6 +3,10 @@
   background-size: cover;
   color: white;
 }
+.lateral{
+	background: url("recursos/imagenes/193g.jpg") no-repeat fixed;
+	background-size: 100%;
+}
 
 .titulo{
 	font-size: 50px;
@@ -46,4 +50,8 @@
 	width: 100%;
 	height: 45px;
 	background-color: #222; 
+}
+.encuentra{
+	padding-top: 50px;
+    padding-bottom: 50px;
 }

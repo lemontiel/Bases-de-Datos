@@ -51,22 +51,33 @@
     	</nav>
 		<div class="container central">
 			<div class="row">
-				<div class="col-sm-2">
-					<!--TODO Menu Lateral-->
+				<div class="col-sm-2 lateral">
+					
 				</div>
 				<div class="col-sm-8">
 					<div class="panel panel-default">
 						<div class="panel-body">
-							<form class="form-vertical" action="usuario-registrado.php" method="post" enctype="multipart/form-data">
+							<form class="form-vertical" action="usuario_registrado.php" method="post" enctype="multipart/form-data">
 								<div class="form-group form-center">
 									<label>Nombre: </label>
-									<input type="text" class="form-control" name="nombre" placeholder="Ingresa nombre del usuario"  maxlength="20" />
+									<input type="text" class="form-control" name="nombre" placeholder="Ingresa tu nombre"  maxlength="20" />
 									<label>Apellido Materno:</label>
-									<input type="text" class="form-control" name="aMAterno" placeholder="Ingresa apellido materno del usuario"  maxlength="20" />
+									<input type="text" class="form-control" name="aMAterno" placeholder="Ingresa tu apellido materno"  maxlength="20" />
 									<label>Apellido Paterno:</label>
-									<input type="text" class="form-control" name="aPaterno" placeholder="Ingresa apellido paterno del usuario"  maxlength="20" />
+									<input type="text" class="form-control" name="aPaterno" placeholder="Ingresa tu apellido paterno"  maxlength="20" />
+									<label>Apodo: </label>
+									<input type="text" class="form-control" name="apodo" placeholder="Ingresa tu apodo (opcional)" maxlength="15" />
 									<label>Fecha de nacimento:</label>
 									<input type="date" class="form-control" name="fnacimiento"/>
+									<label>Email:</label>
+									<input type="email" class="form-control" name="email" placeholder="Ingresa email"  maxlength="20" />
+									<label>Contraseña:</label>
+									<input type="password" class="form-control" name="contraseña" />
+									<label>Carrera:</label>
+									<input type="text" class="form-control" name="carrera" placeholder="Ingenieria en mecatronica" maxlength="30"/>
+									<button type="submit" class="btn btn-default" style="margin-top: 15px; width: 200px;">
+										<span class="glyphicon glyphicon-book"></span><strong> Enviar</strong>
+									</button>
 									
 									
 									
