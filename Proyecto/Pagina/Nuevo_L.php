@@ -60,21 +60,21 @@
 							
 							<h2>Agregar un nuevo libro:</h2>
 							
-                            <form role="form">
+                            <form role="form" action="libroAgregado.php" method="post">
                                 <div class="form-group">
-                                    <label for="usr">T&iacute;tulo:</label> <input type="text" class="form-control" id="n_titulo">
+                                    <label for="usr">T&iacute;tulo:</label> <input type="text" class="form-control" id="n_titulo" name="titulo">
                                 </div>
                                 <div class="form-group">
-                                    <label for="usr">Autor:</label> <input type="text" class="form-control" id="n_autor">
+                                    <label for="usr">Autor:</label> <input type="text" class="form-control" id="n_autor" name="autor">
                                 </div>
                                 <div class="form-group">
-                                    <label for="usr">Tema:</label> <input type="text" class="form-control" id="n_tema">
+                                    <label for="usr">Tema:</label> <input type="text" class="form-control" id="n_tema" name="tema">
                                 </div>
                                 <div class="form-group">
-                                    <label for="usr">Editorial:</label> <input type="text" class="form-control" id="n_editorial">
+                                    <label for="usr">Editorial:</label> <input type="text" class="form-control" id="n_editorial" name="editorial">
                                 </div>
                                 <div class="form-group">
-                                    <label for="usr">Fecha de registro:</label> <input type="text" class="form-control" id="n_freg">
+                                    <label for="usr">Fecha de registro:</label> <input type="number" maxlength="4" class="form-control" id="n_freg" name="feRegistro">
                                 </div>
                             </form>
 							
