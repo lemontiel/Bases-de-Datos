@@ -73,6 +73,8 @@
 									<input type="email" class="form-control" name="email" placeholder="Ingresa email"  maxlength="20" />
 									<label>Contraseña:</label>
 									<input type="password" class="form-control" name="contraseña" />
+									<label>Tipo de usuario:</label>
+									<input type="text" class="form-control" name="tipo" placeholder="Ingresa empleado o alumno" maxlength="30"/>
 									<label>Carrera:</label>
 									<input type="text" class="form-control" name="carrera" placeholder="Ingresa tu carrera" maxlength="30"/>
 									<button type="submit" class="btn btn-default" style="margin-top: 15px; width: 200px;">
