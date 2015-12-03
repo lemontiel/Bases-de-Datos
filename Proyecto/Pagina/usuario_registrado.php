@@ -26,7 +26,7 @@
 		$insertar_=mysql_query("INSERT INTO CARRERA VALUES ('NULL','$carrera')");
 		$insertar_1=mysql_query("INSERT INTO TIPOUSUARIO VALUES ('NULL','$tipo')");		
 		
-		
+		mysql_close();
 		?>
 		<p><em>Usuario con exito</em></p>
 		<script> 
