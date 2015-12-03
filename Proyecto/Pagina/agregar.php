@@ -74,7 +74,7 @@
 									<label>Contraseña:</label>
 									<input type="password" class="form-control" name="contraseña" />
 									<label>Carrera:</label>
-									<input type="text" class="form-control" name="carrera" placeholder="Ingenieria en mecatronica" maxlength="30"/>
+									<input type="text" class="form-control" name="carrera" placeholder="Ingresa tu carrera" maxlength="30"/>
 									<button type="submit" class="btn btn-default" style="margin-top: 15px; width: 200px;">
 										<span class="glyphicon glyphicon-book"></span><strong> Enviar</strong>
 									</button>
