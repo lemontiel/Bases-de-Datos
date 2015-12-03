@@ -5,12 +5,9 @@
 	define("BASE", "mp12lma");
 	
 	
-	$con = @mysqli_connect (SERVIDOR, USUARIO, CLAVE, BASE);
-	
-	
-	
-	if(!$con){
-		die("Coneccion fallida: ". @mysqli_connect_error());
-	}
+	$con = @mysql_connect(SERVIDOR, USUARIO, CLAVE) or die("Coneccion fallida: ". @mysql_error());
+	echo "Hey sista";
+	mysql_query("SET NAMES 'utf8'") or die(mysql_error());
+	mysql_select_db(BASE) or die(mysql_error());
 		echo"Coneccion exitosa";
 ?>

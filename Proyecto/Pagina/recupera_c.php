@@ -6,12 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<<<<<<< HEAD:Proyecto/Pagina/recupera_c.php
+
     <title>Restablecimiento de contraseña</title>
     <!-- CSS -->
-=======
+
     <title>Restablecimiento de contrase&ntilde;a</title><!-- CSS -->
->>>>>>> 35da9ad87e890a8306850910f95cfcdd28482483:Proyecto/Pagina/recupera_c.html
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,500|Poiret+One|Francois+One' rel='stylesheet' type='text/css'>
