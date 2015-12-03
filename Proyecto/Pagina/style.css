@@ -3,6 +3,10 @@
   background-size: cover;
   color: white;
 }
+.lateral{
+	background: url("recursos/imagenes/193g.jpg") no-repeat fixed;
+	background-size: 100%;
+}
 
 .titulo{
 	font-size: 50px;
