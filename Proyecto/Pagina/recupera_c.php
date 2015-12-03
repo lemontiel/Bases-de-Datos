@@ -6,11 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Restablecimiento de contraseña</title><!-- CSS -->
+    <title>Restablecimiento de contraseña</title>
+    <!-- CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,500|Poiret+One|Francois+One' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="style.css"><!--[if lt IE 9]>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--[if lt IE 9]>
         <![endif]-->
 </head>
 
@@ -19,7 +21,7 @@
 
     <div class="well">
         <div class="container">
-            <h4> <span class="glyphicon glyphicon-book"></span> Restablecimiento de contrase&ntilde;a</h4>
+            <h4> <span class="glyphicon glyphicon-book icon"></span> Restablecimiento de contrase&ntilde;a</h4>
         </div>
     </div>
 

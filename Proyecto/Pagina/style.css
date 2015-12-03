@@ -12,10 +12,23 @@
     padding-top: 50px;
     padding-bottom: 50px;
 }
+	a:link{
+		text-decoration: none;
+		color: white;
+	}
+	a:visited:{
+		text-decoration: none;
+		color:white;
+	}
 
 .fcolumna {
 	background:rgba(150,26,250,0.3);
 	border-style: none;
+}
+
+.form-center{
+	width: 300px;
+	padding-left: 100px;
 }
 
 .barrah{
@@ -26,4 +39,11 @@
 .central{
 	padding-top: 60px
 	
+}
+.footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 45px;
+	background-color: #222; 
 }

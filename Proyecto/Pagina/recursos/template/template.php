@@ -11,7 +11,7 @@
         <!-- CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-        <link rel="stylesheet" type= "text/css" "style.css">
+        <link rel="stylesheet" type= "text/css" href="../recursos/style.css">
        
         <!--[if lt IE 9]>
         <![endif]-->
