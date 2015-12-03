@@ -1,8 +1,8 @@
 <?php
 	define ("SERVIDOR", "localhost");
-	define("USUARIO", "root");
-	define("CLAVE", "");
-	define("BASE", "libreria");
+	define("USUARIO", "mp12lma");
+	define("CLAVE", "182605");
+	define("BASE", "mp12lma");
 	
 	
 	$con = @mysql_connect(SERVIDOR, USUARIO, CLAVE) or die("Coneccion fallida: ". @mysql_error());

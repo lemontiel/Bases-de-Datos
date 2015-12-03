@@ -61,10 +61,15 @@
 								<div class="form-group form-center">
 									<label>Nombre: </label>
 									<input type="text" class="form-control" name="nombre" placeholder="Ingresa tu nombre"  maxlength="20" />
+<<<<<<< HEAD
 									<label>Apellido Materno:</label>
 									<input type="text" class="form-control" name="aMaterno" placeholder="Ingresa tu apellido materno"  maxlength="20" />
+=======
+>>>>>>> fba6542dd7f411faf5ca995f59eecd3bf7db7cbc
 									<label>Apellido Paterno:</label>
 									<input type="text" class="form-control" name="aPaterno" placeholder="Ingresa tu apellido paterno"  maxlength="20" />
+									<label>Apellido Materno:</label>
+									<input type="text" class="form-control" name="aMAterno" placeholder="Ingresa tu apellido materno"  maxlength="20" />
 									<label>Apodo: </label>
 									<input type="text" class="form-control" name="apodo" placeholder="Ingresa tu apodo (opcional)" maxlength="15" />
 									<label>Fecha de nacimento:</label>
@@ -74,7 +79,7 @@
 									<label>Contraseña:</label>
 									<input type="password" class="form-control" name="contraseña" />
 									<label>Carrera:</label>
-									<input type="text" class="form-control" name="carrera" placeholder="Ingenieria en mecatronica" maxlength="30"/>
+									<input type="text" class="form-control" name="carrera" placeholder="Ingresa tu carrera" maxlength="30"/>
 									<button type="submit" class="btn btn-default" style="margin-top: 15px; width: 200px;">
 										<span class="glyphicon glyphicon-book"></span><strong> Enviar</strong>
 									</button>
