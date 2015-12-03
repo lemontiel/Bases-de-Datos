@@ -87,7 +87,9 @@
 				</div>	
 			</div>
 		</div>
-		
+		<footer class="footer container-fluid text-center ">
+			<h4>&copy; LEMA</h4>
+		</footer>
 		
     </body>
 
