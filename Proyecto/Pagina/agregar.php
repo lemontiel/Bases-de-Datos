@@ -61,11 +61,8 @@
 								<div class="form-group form-center">
 									<label>Nombre: </label>
 									<input type="text" class="form-control" name="nombre" placeholder="Ingresa tu nombre"  maxlength="20" />
-<<<<<<< HEAD
 									<label>Apellido Materno:</label>
 									<input type="text" class="form-control" name="aMaterno" placeholder="Ingresa tu apellido materno"  maxlength="20" />
-=======
->>>>>>> fba6542dd7f411faf5ca995f59eecd3bf7db7cbc
 									<label>Apellido Paterno:</label>
 									<input type="text" class="form-control" name="aPaterno" placeholder="Ingresa tu apellido paterno"  maxlength="20" />
 									<label>Apellido Materno:</label>
