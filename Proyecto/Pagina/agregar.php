@@ -62,7 +62,7 @@
 									<label>Nombre: </label>
 									<input type="text" class="form-control" name="nombre" placeholder="Ingresa tu nombre"  maxlength="20" />
 									<label>Apellido Materno:</label>
-									<input type="text" class="form-control" name="aMAterno" placeholder="Ingresa tu apellido materno"  maxlength="20" />
+									<input type="text" class="form-control" name="aMaterno" placeholder="Ingresa tu apellido materno"  maxlength="20" />
 									<label>Apellido Paterno:</label>
 									<input type="text" class="form-control" name="aPaterno" placeholder="Ingresa tu apellido paterno"  maxlength="20" />
 									<label>Apodo: </label>

@@ -22,12 +22,19 @@
 		$fechaN=$_POST["fnacimiento"];
 		$tipo=$_POST["tipo"];
 
-		$insertar=mysqli_query("INSERT INTO USUARIO VALUES ('','$nombre','$apellidoP,'$apellidoM','$fechaN','$apodo','$contraseña')");
-		$insertar_=mysql_query("INSERT INTO CARRERA VALUES ('','$carrera')");
-		$insertar_=mysql_query("INSERT INTO TIPOUSUARIO VALUES ('','$tipo')");		
-		print("<script>window.location.replace('index.html');</script>");
+		$insertar=mysql_query("INSERT INTO USUARIO VALUES ('NULL','$nombre','$apellidoP,'$apellidoM','$fechaN','$apodo','$contraseña')");
+		$insertar_=mysql_query("INSERT INTO CARRERA VALUES ('NULL','$carrera')");
+		$insertar_1=mysql_query("INSERT INTO TIPOUSUARIO VALUES ('NULL','$tipo')");		
+		
+		
 		?>
-		<p><em>Empleado Registrado con exito</em></p>
+		<p><em>Usuario con exito</em></p>
+		<script> 
+			setTimeout(function(){
+				window.location.href= 'index.html';
+			}, 0500);
+		</script>
+		
 	</div>
 </body>
 </html>
